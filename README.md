@@ -38,9 +38,13 @@
 
 ## Data cleaning  
   Drop irrelevant columns
+  
   Check for missing values
+  
   Check for duplicate rows
+  
   Analyze data types
+  
   Check for Outliers
 
 ## Data visualization   
