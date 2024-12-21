@@ -19,17 +19,17 @@
     financial details, and account activity.
 
 ## Features
-  CreditScore: Customer's credit score.  
-  Geography: Country where the customer resides.  
-  Gender: Male or Female.  
-  Age: Customer's age.  
-  Tenure: Number of years the customer has been with the bank.  
-  Balance: Account balance.  
-  NumOfProducts: Number of products the customer has subscribed to.  
-  HasCrCard: Whether the customer has a credit card (1 = Yes, 0 = No).  
-  IsActiveMember: Whether the customer is an active member (1 = Yes, 0 = No).  
-  EstimatedSalary: Customer's estimated salary.  
-  Exited: Target variable (1 = Customer exited, 0 = Customer stayed).  
+  **CreditScore**: Customer's credit score.  
+  **Geography**: Country where the customer resides.  
+  **Gender**: Male or Female.  
+  **Age**: Customer's age.  
+  **Tenure**: Number of years the customer has been with the bank.  
+  **Balance**: Account balance.  
+  **NumOfProducts**: Number of products the customer has subscribed to.  
+  **HasCrCard**: Whether the customer has a credit card (1 = Yes, 0 = No).  
+  **IsActiveMember**: Whether the customer is an active member (1 = Yes, 0 = No).  
+  **EstimatedSalary**: Customer's estimated salary.  
+  **Exited**: Target variable (1 = Customer exited, 0 = Customer stayed).  
 
 ## ERD 
     Inspect the dataset
