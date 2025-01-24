@@ -20,7 +20,7 @@ Customer churn is a critical challenge for many businesses. Accurately predictin
 ## Dataset 
 The dataset used for this project includes features related to customer behavior and demographics. It serves as the basis for training, testing, and evaluating our predictive models. 
 It contains information about bank customers and their churn status, which indicates whether they have exited the bank or not. 
-[Banking Customer Churn Prediction Dataset](https://www.kaggle.com/datasets/saurabhbadole/bank-customer-churn-prediction-dataset)
+[Banking Customer Churn Prediction Dataset on Kaggle](https://www.kaggle.com/datasets/saurabhbadole/bank-customer-churn-prediction-dataset)
 
 ## Dataset Features
   **CreditScore**: Customer's credit score.  
@@ -62,4 +62,4 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 We hope this project inspires you to explore machine learning applications for business challenges like customer churn prediction. Happy coding!
-```
+
