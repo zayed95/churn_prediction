@@ -1,24 +1,28 @@
 # "Analyzing Churn Prediction Dataset and Prediction of Customer Behaviour"
-  our project is responsible for apply different Machine learning algorithm ( Naive Bayes , Decission tree , Support vector machine [SVM] , KNN),
-  and develop predictive models using various machine learning algorithms this was about predicting the customer churn model and try optization model with high accuracy for this task .
-
-## Table of content
-  - Data set introduction 
-  - ERD
-  - Data cleaning
-  - Data visualization
-  - Naive Bayes algorithm
-  - oversampling and balance data
-  - Decission Tree
-  - KNN algorithm
-  - SVM algorithm
-
-## Dataset introduction 
-    The provided dataset is a Churn Prediction Dataset from a bank. The goal is to predict whether a customer will leave the bank (Exited = 1)
-    or stay (Exited = 0). This is a supervised classification problem. The dataset contains 10,000 records with features such as customer demographics,
-    financial details, and account activity.
+This project focuses on building and comparing predictive models for customer churn using various machine learning algorithms, including Naive Bayes, Decision Tree, Support Vector Machine (SVM), and K-Nearest Neighbors (KNN). By developing and optimizing these models, we aim to identify the most accurate approach for predicting customer churn and provide valuable insights to help businesses take proactive measures to retain their customers.
 
 ## Features
+- Exploratory data analysis
+- Data Cleaning
+- Data visualization
+- Data preprocessing
+- Implementation of multiple machine learning algorithms:
+  - Naive Bayes
+  - Decision Tree
+  - K-Nearest Neighbors (KNN)
+  - Support Vector Machine (SVM)
+- Comparative analysis of model performance.
+- Optimization techniques to enhance accuracy and reduce errors.
+
+## Motivation
+Customer churn is a critical challenge for many businesses. Accurately predicting which customers are likely to leave helps businesses take proactive measures to retain them. This project provides insights into the effectiveness of various machine learning models for this task and aims to identify the most suitable approach.
+
+## Dataset 
+The dataset used for this project includes features related to customer behavior and demographics. It serves as the basis for training, testing, and evaluating our predictive models. 
+It contains information about bank customers and their churn status, which indicates whether they have exited the bank or not. 
+[Banking Customer Churn Prediction Dataset](https://www.kaggle.com/datasets/saurabhbadole/bank-customer-churn-prediction-dataset)
+
+## Dataset Features
   **CreditScore**: Customer's credit score.  
   **Geography**: Country where the customer resides.  
   **Gender**: Male or Female.  
@@ -31,58 +35,31 @@
   **EstimatedSalary**: Customer's estimated salary.  
   **Exited**: Target variable (1 = Customer exited, 0 = Customer stayed).  
 
-## ERD 
-    Inspect the dataset
-    Examine unique values
-    Summary Statistics
+## How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repository-name.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd your-repository-name
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the project:
+   ```bash
+   python main.py
+   ```
 
-## Data cleaning  
-  Drop irrelevant columns
-  
-  Check for missing values
-  
-  Check for duplicate rows
-  
-  Analyze data types
-  
-  Check for Outliers
+## Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue for suggestions and bug reports.
 
-## Data visualization   
-    Histograms and Distributions
-    Count Plots
-    pie chart
-    subplots layout
-    Correlation Matrix 
-    confusion Matrix 
+## License
+This project is licensed under the [MIT License](LICENSE).
 
-## one hot encoder 
-## Standarization (Z-score scaling)
+---
 
-##  Naive Bayes algorithm
-    apply the algorithm 
-    metrics conclusion 
-    Apply Cross validation to relaible evaluation and Oversampling as the data is imbalanced
-    Fine tune the Hyperparameters
-
-## Decision Tree
-    Selecting the Best Attribute
-    Splitting the Dataset
-    Repeat the Process
-    metrics conclusion
-    give insights 
-
-## KNN 
-    Select the number of neighbors (K) 
-    apply the algorithm 
-    split the data into (70 %  : 15% : 15% )
-    compare many models 
-    visulaize each model merics 
-    give valuable insights 
-## SVM 
-    feature selection 
-    Apply the algorithm 
-    evaluation and Oversampling as the data is imbalanced
-    Fine tune the Hyperparameters
-    select best model and give metrics conclusion 
-    give insights and learning curve 
-    
+We hope this project inspires you to explore machine learning applications for business challenges like customer churn prediction. Happy coding!
+```
